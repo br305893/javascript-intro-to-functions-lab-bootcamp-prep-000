@@ -4,7 +4,7 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-function logShout(uppercase) {
-  var uppercase = "hello"
-  console.log(uppercase.toUpperCase)
+function logShout(string) {
+  var string = "HELLO!"
+  console.log(string.toUpperCase() === string)
 }
